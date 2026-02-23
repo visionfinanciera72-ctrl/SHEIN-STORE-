@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda Afiliado SHEIN</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="topbar">
+🔥 Catálogo actualizado diariamente
+</div>
+
+<header>
+<h1>SHEIN TREND STORE</h1>
+<p>Moda viral en todas las plataformas</p>
+</header>
+
+<section class="filters">
+<button onclick="filtrar('todos')">Todos</button>
+<button onclick="filtrar('mujer')">Mujer</button>
+<button onclick="filtrar('hombre')">Hombre</button>
+<button onclick="filtrar('accesorios')">Accesorios</button>
+</section>
+
+<section>
+<h2>🔥 Más Vendidos</h2>
+<div class="grid" id="masVendidos"></div>
+</section>
+
+<section>
+<h2>🛍 Catálogo Completo</h2>
+<div class="grid" id="productos"></div>
+</section>
+
+<section class="contador">
+Visitas: <span id="visitas"></span>
+</section>
+
+<footer>
+Sígueme en TikTok • Instagram • Facebook • Pinterest • YouTube • Twitter • WhatsApp Business
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
